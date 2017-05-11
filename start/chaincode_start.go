@@ -32,6 +32,9 @@ type SimpleChaincode struct {
 // ============================================================================================================================
 func main() {
 	err := shim.Start(new(SimpleChaincode))
+	fmt.Printf(" main()  시작하다 시작하다 시작하다")
+	fmt.Printf(" main()  시작하다 시작하다 시작하다")
+	fmt.Printf(" main()  시작하다 시작하다 시작하다")
 	if err != nil {
 			fmt.Printf("Error starting Simple chaincode: %s", err)
 	}
